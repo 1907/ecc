@@ -1,0 +1,8 @@
+env: "produce"
+mongo:
+  dns: "mongodb://localhost:27017"
+  db: "local"
+  collection: "excel"
+mysql:
+  alias: default
+  dns: "root:root@tcp(localhost:3306)/t?charset=utf8&parseTime=true&loc=Asia%2FChongqing"
